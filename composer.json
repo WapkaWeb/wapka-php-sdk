@@ -1,0 +1,28 @@
+{
+    "name": "wapkaweb/wapka-php-sdk",
+    "description": "Wapka SDK",
+    "type": "project",
+    "require": {
+        "slim/slim": "4.x-dev",
+        "slim/psr7": "dev-master",
+        "slim/csrf": "2.x-dev",
+        "php-di/slim-bridge": "dev-master",
+        "slim/flash": "dev-master",
+        "slim/http": "dev-master",
+        "thingengineer/mysqli-database-class": "dev-master",
+        "smarty/smarty": "^5.3",
+        "matthiasmullie/scrapbook": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wapkaweb\\WapkaPhpSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonayed Hossan Gazi"
+        }
+    ],
+    "minimum-stability": "dev"
+}
