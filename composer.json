@@ -3,6 +3,7 @@
     "description": "Wapka PHP SDK",
     "type": "project",
     "require": {
+        "php": ">=8.1.0",
         "slim/slim": "4.x-dev",
         "slim/psr7": "dev-master",
         "slim/csrf": "2.x-dev",
