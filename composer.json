@@ -4,7 +4,7 @@
     "type": "project",
     "require": {
         "php": ">=7.2.5",
-        "ext-mysqli": "*",
+        "ext-sqlite3": "*",
         "slim/slim": "4.x-dev",
         "slim/psr7": "dev-master",
         "slim/csrf": "2.x-dev",
