@@ -1,6 +1,6 @@
 {
     "name": "wapkaweb/wapka-php-sdk",
-    "description": "Wapka SDK",
+    "description": "Wapka PHP SDK",
     "type": "project",
     "require": {
         "slim/slim": "4.x-dev",
@@ -24,5 +24,6 @@
             "name": "Jonayed Hossan Gazi"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
