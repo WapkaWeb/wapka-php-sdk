@@ -10,7 +10,8 @@
     "thingengineer/mysqli-database-class": "^2.9",
     "smarty/smarty": "^5.3",
     "matthiasmullie/scrapbook": "^1.5",
-    "monolog/monolog": "^3.7"
+    "monolog/monolog": "^3.7",
+    "league/config": "^1.2"
   },
   "license": "MIT",
   "autoload": {
