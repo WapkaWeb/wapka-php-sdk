@@ -20,6 +20,6 @@ class API
     }
     public function startProcessing()
     {
-        $this->db = new DB($this->config->get("database"));
+        $this->db = new DB($this->config->database);
     }
 }
