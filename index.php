@@ -12,7 +12,7 @@ $config->set('database', [
     'host' => '45.149.206.232',
     'username' => 'robot',
     'password' => 'ilYCAuphPz3CFBj',
-    'name' => 'wapka_db',
+    'name' => 'wapka_test_db',
     'port' => 3306,
     'charset' => 'utf8mb4'
 ]);
