@@ -2,24 +2,32 @@
 
 namespace Wapkaweb\WapkaPhpSdk;
 
-use Wapkaweb\WapkaPhpSdk\MysqlDB\DBClient as DB;
-
 class API
 {
     public $db;
     public $config;
-    public function __construct($config = null)
+    public $UserInfo;
+
+    public function __construct(Helper\Config $config = null, Object $database = null)
     {
         if ($config) {
             $this->config = $config;
         }
+        if ($database) {
+            $this->db = $database;
+        }
     }
-    public function setConfigaration(\Wapkaweb\WapkaPhpSdk\Config $config)
+
+    public function setConfigaration(Helper\Config $config)
     {
-        $this->config = $config;
+        return $this->config = $config;
     }
-    public function startProcessing()
+    public function setDatabase(object $db)
     {
-        $this->db = new DB($this->config->database);
+        return $this->db = $db;
+    }
+    public function loadClass()
+    {
+        $this->UserInfo = (new User\UserInfo())->setDatabase($this->db);
     }
 }
