@@ -12,7 +12,9 @@
     "matthiasmullie/scrapbook": "^1.5",
     "monolog/monolog": "^3.7",
     "league/config": "^1.2",
-    "slim/psr7": "^1.7"
+    "slim/psr7": "^1.7",
+    "laminas/laminas-session": "^2.5",
+    "devcoder-xyz/php-session": "^1.0"
   },
   "license": "MIT",
   "autoload": {
